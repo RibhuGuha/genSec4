@@ -1,0 +1,31 @@
+{
+    "password": "password123",
+    "roles": [
+      {
+        "api": "customer",
+        "apiAccess": "read",
+        "name": "cr"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "write",
+        "name": "cw"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "list",
+        "name": "cl"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "update",
+        "name": "cu"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "delete",
+        "name": "cd"
+      }
+    ],
+    "username": "admin"
+  }

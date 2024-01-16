@@ -1,0 +1,76 @@
+[{
+    "password": "admin",
+    "active": true,
+    "username": "admin",
+    "superUser": true,
+    "name": "admin",
+    "email": "admin@gmail.com"
+  },
+  {
+    "password": "password123",
+    "roles": [
+      {
+        "api": "product",
+        "apiAccess": "read",
+        "name": "pr"
+      },
+      {
+        "api": "product",
+        "apiAccess": "write",
+        "name": "pw"
+      },
+      {
+        "api": "product",
+        "apiAccess": "list",
+        "name": "pl"
+      },
+      {
+        "api": "product",
+        "apiAccess": "update",
+        "name": "pu"
+      },
+      {
+        "api": "product",
+        "apiAccess": "delete",
+        "name": "pd"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "read",
+        "name": "cr"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "write",
+        "name": "cw"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "list",
+        "name": "cl"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "update",
+        "name": "cu"
+      },
+      {
+        "api": "customer",
+        "apiAccess": "delete",
+        "name": "cd"
+      },
+      {
+        "api": "user",
+        "apiAccess": "update",
+        "name": "uu"
+      },
+      {
+        "api": "user",
+        "apiAccess": "list",
+        "name": "ul"
+      }
+    ],
+    "active": true,
+    "username": "user",
+    "name": "user"
+  }]
